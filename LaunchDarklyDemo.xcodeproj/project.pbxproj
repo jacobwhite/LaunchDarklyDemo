@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16611DC7260E9D8C00582EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16611DC6260E9D8C00582EBB /* AppDelegate.swift */; };
+		16611DC9260E9D8C00582EBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16611DC8260E9D8C00582EBB /* SceneDelegate.swift */; };
+		16611DCB260E9D8C00582EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16611DCA260E9D8C00582EBB /* ViewController.swift */; };
+		16611DCE260E9D8C00582EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16611DCC260E9D8C00582EBB /* Main.storyboard */; };
+		16611DD0260E9D8C00582EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16611DCF260E9D8C00582EBB /* Assets.xcassets */; };
+		16611DD3260E9D8C00582EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16611DD1260E9D8C00582EBB /* LaunchScreen.storyboard */; };
+		16611DDE260E9D8C00582EBB /* LaunchDarklyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16611DDD260E9D8C00582EBB /* LaunchDarklyDemoTests.swift */; };
+		16611DE9260E9D8C00582EBB /* LaunchDarklyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16611DE8260E9D8C00582EBB /* LaunchDarklyDemoUITests.swift */; };
+		16611DF8260E9DC200582EBB /* LaunchDarkly in Frameworks */ = {isa = PBXBuildFile; productRef = 16611DF7260E9DC200582EBB /* LaunchDarkly */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16611DDA260E9D8C00582EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16611DBB260E9D8C00582EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16611DC2260E9D8C00582EBB;
+			remoteInfo = LaunchDarklyDemo;
+		};
+		16611DE5260E9D8C00582EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16611DBB260E9D8C00582EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16611DC2260E9D8C00582EBB;
+			remoteInfo = LaunchDarklyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16611DC3260E9D8C00582EBB /* LaunchDarklyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchDarklyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16611DC6260E9D8C00582EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16611DC8260E9D8C00582EBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16611DCA260E9D8C00582EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16611DCD260E9D8C00582EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16611DCF260E9D8C00582EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16611DD2260E9D8C00582EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16611DD4260E9D8C00582EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16611DD9260E9D8C00582EBB /* LaunchDarklyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchDarklyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16611DDD260E9D8C00582EBB /* LaunchDarklyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDarklyDemoTests.swift; sourceTree = "<group>"; };
+		16611DDF260E9D8C00582EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16611DE4260E9D8C00582EBB /* LaunchDarklyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchDarklyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16611DE8260E9D8C00582EBB /* LaunchDarklyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDarklyDemoUITests.swift; sourceTree = "<group>"; };
+		16611DEA260E9D8C00582EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168C8C10261BDCC100903DDA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16611DC0260E9D8C00582EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16611DF8260E9DC200582EBB /* LaunchDarkly in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16611DD6260E9D8C00582EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16611DE1260E9D8C00582EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16611DBA260E9D8C00582EBB = {
+			isa = PBXGroup;
+			children = (
+				168C8C10261BDCC100903DDA /* README.md */,
+				16611DC5260E9D8C00582EBB /* LaunchDarklyDemo */,
+				16611DDC260E9D8C00582EBB /* LaunchDarklyDemoTests */,
+				16611DE7260E9D8C00582EBB /* LaunchDarklyDemoUITests */,
+				16611DC4260E9D8C00582EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16611DC4260E9D8C00582EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16611DC3260E9D8C00582EBB /* LaunchDarklyDemo.app */,
+				16611DD9260E9D8C00582EBB /* LaunchDarklyDemoTests.xctest */,
+				16611DE4260E9D8C00582EBB /* LaunchDarklyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16611DC5260E9D8C00582EBB /* LaunchDarklyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				16611DC6260E9D8C00582EBB /* AppDelegate.swift */,
+				16611DC8260E9D8C00582EBB /* SceneDelegate.swift */,
+				16611DCA260E9D8C00582EBB /* ViewController.swift */,
+				16611DCC260E9D8C00582EBB /* Main.storyboard */,
+				16611DCF260E9D8C00582EBB /* Assets.xcassets */,
+				16611DD1260E9D8C00582EBB /* LaunchScreen.storyboard */,
+				16611DD4260E9D8C00582EBB /* Info.plist */,
+			);
+			path = LaunchDarklyDemo;
+			sourceTree = "<group>";
+		};
+		16611DDC260E9D8C00582EBB /* LaunchDarklyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				16611DDD260E9D8C00582EBB /* LaunchDarklyDemoTests.swift */,
+				16611DDF260E9D8C00582EBB /* Info.plist */,
+			);
+			path = LaunchDarklyDemoTests;
+			sourceTree = "<group>";
+		};
+		16611DE7260E9D8C00582EBB /* LaunchDarklyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16611DE8260E9D8C00582EBB /* LaunchDarklyDemoUITests.swift */,
+				16611DEA260E9D8C00582EBB /* Info.plist */,
+			);
+			path = LaunchDarklyDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16611DC2260E9D8C00582EBB /* LaunchDarklyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16611DED260E9D8C00582EBB /* Build configuration list for PBXNativeTarget "LaunchDarklyDemo" */;
+			buildPhases = (
+				16611DBF260E9D8C00582EBB /* Sources */,
+				16611DC0260E9D8C00582EBB /* Frameworks */,
+				16611DC1260E9D8C00582EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchDarklyDemo;
+			packageProductDependencies = (
+				16611DF7260E9DC200582EBB /* LaunchDarkly */,
+			);
+			productName = LaunchDarklyDemo;
+			productReference = 16611DC3260E9D8C00582EBB /* LaunchDarklyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16611DD8260E9D8C00582EBB /* LaunchDarklyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16611DF0260E9D8C00582EBB /* Build configuration list for PBXNativeTarget "LaunchDarklyDemoTests" */;
+			buildPhases = (
+				16611DD5260E9D8C00582EBB /* Sources */,
+				16611DD6260E9D8C00582EBB /* Frameworks */,
+				16611DD7260E9D8C00582EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16611DDB260E9D8C00582EBB /* PBXTargetDependency */,
+			);
+			name = LaunchDarklyDemoTests;
+			productName = LaunchDarklyDemoTests;
+			productReference = 16611DD9260E9D8C00582EBB /* LaunchDarklyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16611DE3260E9D8C00582EBB /* LaunchDarklyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16611DF3260E9D8C00582EBB /* Build configuration list for PBXNativeTarget "LaunchDarklyDemoUITests" */;
+			buildPhases = (
+				16611DE0260E9D8C00582EBB /* Sources */,
+				16611DE1260E9D8C00582EBB /* Frameworks */,
+				16611DE2260E9D8C00582EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16611DE6260E9D8C00582EBB /* PBXTargetDependency */,
+			);
+			name = LaunchDarklyDemoUITests;
+			productName = LaunchDarklyDemoUITests;
+			productReference = 16611DE4260E9D8C00582EBB /* LaunchDarklyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16611DBB260E9D8C00582EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					16611DC2260E9D8C00582EBB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					16611DD8260E9D8C00582EBB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 16611DC2260E9D8C00582EBB;
+					};
+					16611DE3260E9D8C00582EBB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 16611DC2260E9D8C00582EBB;
+					};
+				};
+			};
+			buildConfigurationList = 16611DBE260E9D8C00582EBB /* Build configuration list for PBXProject "LaunchDarklyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16611DBA260E9D8C00582EBB;
+			packageReferences = (
+				16611DF6260E9DC200582EBB /* XCRemoteSwiftPackageReference "ios-client-sdk" */,
+			);
+			productRefGroup = 16611DC4260E9D8C00582EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16611DC2260E9D8C00582EBB /* LaunchDarklyDemo */,
+				16611DD8260E9D8C00582EBB /* LaunchDarklyDemoTests */,
+				16611DE3260E9D8C00582EBB /* LaunchDarklyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16611DC1260E9D8C00582EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16611DD3260E9D8C00582EBB /* LaunchScreen.storyboard in Resources */,
+				16611DD0260E9D8C00582EBB /* Assets.xcassets in Resources */,
+				16611DCE260E9D8C00582EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16611DD7260E9D8C00582EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16611DE2260E9D8C00582EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16611DBF260E9D8C00582EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16611DCB260E9D8C00582EBB /* ViewController.swift in Sources */,
+				16611DC7260E9D8C00582EBB /* AppDelegate.swift in Sources */,
+				16611DC9260E9D8C00582EBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16611DD5260E9D8C00582EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16611DDE260E9D8C00582EBB /* LaunchDarklyDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16611DE0260E9D8C00582EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16611DE9260E9D8C00582EBB /* LaunchDarklyDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16611DDB260E9D8C00582EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16611DC2260E9D8C00582EBB /* LaunchDarklyDemo */;
+			targetProxy = 16611DDA260E9D8C00582EBB /* PBXContainerItemProxy */;
+		};
+		16611DE6260E9D8C00582EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16611DC2260E9D8C00582EBB /* LaunchDarklyDemo */;
+			targetProxy = 16611DE5260E9D8C00582EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16611DCC260E9D8C00582EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16611DCD260E9D8C00582EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16611DD1260E9D8C00582EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16611DD2260E9D8C00582EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16611DEB260E9D8C00582EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16611DEC260E9D8C00582EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16611DEE260E9D8C00582EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FB988RRU;
+				INFOPLIST_FILE = LaunchDarklyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.jacobwhite.LaunchDarklyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16611DEF260E9D8C00582EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FB988RRU;
+				INFOPLIST_FILE = LaunchDarklyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.jacobwhite.LaunchDarklyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16611DF1260E9D8C00582EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FB988RRU;
+				INFOPLIST_FILE = LaunchDarklyDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.jacobwhite.LaunchDarklyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchDarklyDemo.app/LaunchDarklyDemo";
+			};
+			name = Debug;
+		};
+		16611DF2260E9D8C00582EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FB988RRU;
+				INFOPLIST_FILE = LaunchDarklyDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.jacobwhite.LaunchDarklyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchDarklyDemo.app/LaunchDarklyDemo";
+			};
+			name = Release;
+		};
+		16611DF4260E9D8C00582EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FB988RRU;
+				INFOPLIST_FILE = LaunchDarklyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.jacobwhite.LaunchDarklyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaunchDarklyDemo;
+			};
+			name = Debug;
+		};
+		16611DF5260E9D8C00582EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FB988RRU;
+				INFOPLIST_FILE = LaunchDarklyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.jacobwhite.LaunchDarklyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaunchDarklyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16611DBE260E9D8C00582EBB /* Build configuration list for PBXProject "LaunchDarklyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16611DEB260E9D8C00582EBB /* Debug */,
+				16611DEC260E9D8C00582EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16611DED260E9D8C00582EBB /* Build configuration list for PBXNativeTarget "LaunchDarklyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16611DEE260E9D8C00582EBB /* Debug */,
+				16611DEF260E9D8C00582EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16611DF0260E9D8C00582EBB /* Build configuration list for PBXNativeTarget "LaunchDarklyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16611DF1260E9D8C00582EBB /* Debug */,
+				16611DF2260E9D8C00582EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16611DF3260E9D8C00582EBB /* Build configuration list for PBXNativeTarget "LaunchDarklyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16611DF4260E9D8C00582EBB /* Debug */,
+				16611DF5260E9D8C00582EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16611DF6260E9DC200582EBB /* XCRemoteSwiftPackageReference "ios-client-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/launchdarkly/ios-client-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16611DF7260E9DC200582EBB /* LaunchDarkly */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16611DF6260E9DC200582EBB /* XCRemoteSwiftPackageReference "ios-client-sdk" */;
+			productName = LaunchDarkly;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16611DBB260E9D8C00582EBB /* Project object */;
+}
