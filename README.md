@@ -1,12 +1,12 @@
 #  LaunchDarklyDemo
 
-This is project demonstrates the use of feature flags with LaunchDarkly.
+This project demonstrates the use of feature flags with LaunchDarkly.
 
 To use this project you will need to create a trial account with [LaunchDarkly](https://launchdarkly.com/). It uses a feature flag with the key "new-onboarding-screen". You can either create a feature flag with the same key in LaunchDarkly, or you can change the value for "featureFlagKey" in ViewController.swift
 - When you create the feature flag make sure you check the box for  "SDKs using Mobile key"
 - You'll also need to add your LaunchDarkly mobile key which can be found in the Projects tab of your account settings page on the LaunchDarkly website. In the Xcode project, the variable for that is called "mobileKey" in AppDelegate.swift
 
-Once all that is done, in LaunchDarkly you can go to Featrue flags > Targeting, and then change the default rule from true to false and when you save the change, the UI in your app will update live, pretty cool!
+Once all that is done, in LaunchDarkly you can go to Feature flags > Targeting, and then change the default rule from true to false and when you save the change, the UI in your app will update live, pretty cool!
 
 Code overview:
 - AppDelegate.swift:
