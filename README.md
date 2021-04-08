@@ -17,6 +17,7 @@ Code overview:
 - ViewController.swift:
 
     This tells the LaunchDarkly client to watch for changes in the value of the featurekey, and when a change is observed to call `updateLabel()`:
+    
  `LDClient.get()?.observe(key: featureFlagKey, owner: self) { [weak self] changedFlag in
     self?.updateLabel(changedFlag.key)
 }`
