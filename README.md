@@ -9,11 +9,11 @@ To use this project you will need to create a trial account with [LaunchDarkly](
 Once all that is done, in LaunchDarkly you can go to Featrue flags > Targeting, and then change the default rule from true to false and when you save the change, the UI in your app will update live, pretty cool!
 
 Code overview:
-- AppDelegate.swift
+- AppDelegate.swift:
     The mobileKey is configured with a string.
     `setUpLDClient()` creates a user, a configuration, and starts up the LaunchDarkly client.
     
--`ViewController.swift`
+- ViewController.swift:
 This tells the LaunchDarkly client to watch for changes in the value of the featurekey, and when a change is observed to call `updateLabel()`:
  `LDClient.get()?.observe(key: featureFlagKey, owner: self) { [weak self] changedFlag in
     self?.updateLabel(changedFlag.key)
