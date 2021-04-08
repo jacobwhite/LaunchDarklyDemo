@@ -10,11 +10,12 @@ Once all that is done, in LaunchDarkly you can go to Featrue flags > Targeting, 
 
 Code overview:
 - AppDelegate.swift:
+
     The mobileKey is configured with a string.
     `setUpLDClient()` creates a user, a configuration, and starts up the LaunchDarkly client.
     
 - ViewController.swift:
-This tells the LaunchDarkly client to watch for changes in the value of the featurekey, and when a change is observed to call `updateLabel()`:
+    This tells the LaunchDarkly client to watch for changes in the value of the featurekey, and when a change is observed to call `updateLabel()`:
  `LDClient.get()?.observe(key: featureFlagKey, owner: self) { [weak self] changedFlag in
     self?.updateLabel(changedFlag.key)
 }`
